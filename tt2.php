@@ -6,5 +6,5 @@ if (!file_exists($file)) {
 }
 
 $fp = fopen($file, 'rb');
-fpassthru($file);
+fpassthru($fp);
 fclose($fp);
